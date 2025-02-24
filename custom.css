@@ -3,33 +3,80 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
 <style>
-/*    @font-face {
+   @font-face {
         font-family: "Computer Modern";
         src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-    }*/
+    }
+    /* custom code settings */
+    .cm-keyword {
+        color: #A81D1E !important;
+        font-weight: bold;
+    }
+    .cm-string {
+        color: #A81D1E !important;
+        font-style: italic;       
+    }
+    .cm-comment {
+        color: #434343 !important;
+        font-style: italic;       
+    }
+    .cm-variable, .cm-number {
+        color: #0C3762 !important;
+    }
+    .cm-def {
+        color: #0C3762 !important;
+        font-weight: bold;
+    }
+    .cm-builtin, .cm-operator {
+        color: #A81D1E !important;
+        font-weight: bold;
+    }
+    .rendered_html a {
+        color: #0C3762 !important; /* Change this to your preferred color */
+        font-weight: bold;
+        text-decoration: underline; /* Optional: keeps underline */
+    }
+    .rendered_html a:hover {
+        font-weight: bold;
+        color: #0C3762 !important; /* Change color when hovering over links */
+    }  
     div.cell{
-        width:80%;
+        width:90%;
         margin-left:auto;
         margin-right:auto;
     }
+    div.cell {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.cell + div.cell.code_cell {
+        margin-bottom: 50px; /* add some space between cells */
+    }
     h1 {
         font-family: 'Roboto Condensed', sans-serif;
+        color: #0C3762;
     }
     h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 500 !important;
         font-size: 1.5em !important;
+        color: #0C3762;
     }
     h3{
 		font-family: 'Roboto', sans-serif;
         margin-top:12px;
         margin-bottom: 3px;
+        color: #0C3762;
        }
 	h4{
 		font-family: 'Roboto', sans-serif;
+        color: #0C3762;
        }
     h5 {
         font-family: 'Roboto Condensed', sans-serif;
+        color: #0C3762;
     }	   
     div.text_cell_render{
         font-family: 'Roboto',Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -37,18 +84,40 @@
         font-size: 110%;
         width:100%;
     }
-/*    .CodeMirror{
-            font-family: "Source Code Pro";
-			font-size: 100%;
-    }*/
-/*    .prompt{
-        display: None;
-    }*/
-    .text_cell_render h1 {
+    div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+        background: #0C3762;
+        width: 20px;
+    }
+    /* Add logo next to the bar */
+    div.cell.selected:after, 
+    div.cell.selected.jupyter-soft-selected:after {
+        content: '';
+        position: absolute;
+        left: 20px; /* Position next to the bar (20px = bar width) */
+        top: 0;
+        bottom: 0;
+        width: 40px; /* Logo container width */
+        background: url('img/Acoular_logo.png') no-repeat center center / contain;
+        z-index: 999;
+    }    
+    div.input_prompt {
+        color: #0C3762;
+    }
+
+    div.output_prompt {
+        color: #A81D1E;
+    }
+    div.input_area {
+        background-color: #f1f1f1 !important; 
+    }    
+    div.prompt {
+        min-width: 18ex;
+    }
+    .text_cell_render h1, .text_cell_render h2 {
         font-weight: 200;
         font-size: 50pt;
 		line-height: 100%;
-        color:#386940;
+        color:#0C3762;
         margin-bottom: 0.5em;
         margin-top: 0.5em;
         display: block;
@@ -56,16 +125,16 @@
     .text_cell_render h5 {
         font-weight: 300;
         font-size: 16pt;
-        color: #386940;
+        color: #0C3762;
         font-style: italic;
         margin-bottom: .5em;
         margin-top: 0.5em;
         display: block;
     }
-    
     .warning{
-        color: rgb( 240, 20, 20 )
-        }
+        color: rgb( 240, 20, 20 );
+    }
+
 </style>
 <script>
     MathJax.Hub.Config({
