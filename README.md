@@ -1,18 +1,18 @@
 # workshop_DAS-DAGA-2025
 A collection of jupyter notebooks, presented at the DAS|DAGA 2025 conference.
 
-Installation with conda:
+Installation with `conda`, `mamba` or `micromamba`:
 
-* install `nbclassic` to use the classic notebook interface
+* install dependencies including `nbclassic` to use the classic notebook interface
 
 ```bash
-conda install --yes --file requirements.txt --channel acoular
+conda env create -f env.yml
 ```
 
 Run the notebooks:
 
 ```bash
-jupyter nbclassic
+conda run -n acoular-workshop-das-daga-25 jupyter nbclassic
 ```
 
 ## Directory Structure
