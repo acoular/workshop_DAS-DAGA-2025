@@ -1,3 +1,0 @@
-nbclassic
-acoular==25.01
-matplotlib

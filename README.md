@@ -1,24 +1,24 @@
 # workshop_DAS-DAGA-2025
-A collection of jupyter notebooks, presented at the DAS|DAGA 2025 conference.
+A collection of Jupyter notebooks, presented at the DAS|DAGA 2025 conference.
 
-Installation with conda:
+Installation with `conda`, `mamba` or `micromamba`:
 
-* install `nbclassic` to use the classic notebook interface
+* install dependencies including `nbclassic` to use the classic notebook interface
 
 ```bash
-conda install --yes --file requirements.txt --channel acoular
+conda env create -f env.yml
 ```
 
 Run the notebooks:
 
 ```bash
-jupyter nbclassic
+conda run -n acoular-workshop-das-daga-25 jupyter nbclassic
 ```
 
 ## Directory Structure
 
-Time data should be stored in a directory: `/data`. For images/figures use the `/img` directory.
-Jupyter notebooks should be stored in the top level directory with the naming sheme: `<presentation_title_with_underscores_and_without_'Acoular Workshop:>.ipynb`. E.g. for the presentation `Acoular Workshop: Getting Started with Acoular` the name of the notebook should be `Getting_Started_with_Acoular.ipynb`.
+Time data or input data like microphone geometries should be stored in a directory: `/data`. For images/figures use the `/img` directory.
+Jupyter notebooks should be stored in the top level directory with the naming scheme: `<number>_<presentation_title_with_underscores_and_without_'Acoular Workshop:>.ipynb`. E.g. for the presentation `Acoular Workshop: Getting Started with Acoular` the name of the notebook should be `01_Getting_Started_with_Acoular.ipynb`.
 
 ## Notebooks
 For css styling, first notebook cell should include
