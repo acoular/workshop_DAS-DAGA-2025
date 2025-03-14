@@ -6,7 +6,9 @@
   <img src="img/DAGA_logo.png" alt="DAGA" style="height: 100px; width: auto;">
 </div>
 
-Official collection of Jupyter notebooks, presented at the DAS|DAGA 2025 conference during the session **Acoular Workshop: Accessible and Reproducible Microphone Array Signal Processing with Python**
+Official collection of Jupyter notebooks, presented at the DAS|DAGA 2025 conference during the session: 
+
+**Acoular Workshop: Accessible and Reproducible Microphone Array Signal Processing with Python**
 
 Session details: [DAS|DAGA 2025](https://app2025.daga-tagung.de/konferenz?session=21)
 
@@ -43,4 +45,4 @@ Please take five minutes to fill out the Acoular Future Directions Survey: [Acou
 This is a survey about needs and future expectations regarding Acoular. 
 It addresses existing users and those who may become users in academia, other institutions, and fields other than acoustic testing.
 
-![SurveyQR](img/survey.png)
+<img src="img/survey.png" alt="Survey" style="height: auto; width: 100%;">
