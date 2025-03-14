@@ -45,4 +45,4 @@ Please take five minutes to fill out the Acoular Future Directions Survey: [Acou
 This is a survey about needs and future expectations regarding Acoular. 
 It addresses existing users and those who may become users in academia, other institutions, and fields other than acoustic testing.
 
-<img src="img/survey.png" alt="Survey" style="height: auto; width: 100%;">
+<img src="img/survey.png" alt="Survey" style="height: auto; width: 50%;">
