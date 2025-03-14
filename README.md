@@ -33,6 +33,12 @@ Installation with `conda`, `mamba` or `micromamba`:
 conda env create -f env.yml
 ```
 
+* if you require an explicit installation including builds, use the following command:
+
+```bash
+mamba env create -f env_explicit.yml
+```
+
 Run the notebooks:
 
 ```bash
