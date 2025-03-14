@@ -87,6 +87,9 @@
         font-size: 130%;
         width:100%;
     }
+    div.CodeMirror{
+        font-size: 120%;
+    }
     div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
         background: #0C3762;
         width: 20px;
