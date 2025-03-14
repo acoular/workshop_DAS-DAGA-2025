@@ -17,10 +17,10 @@ Session details: [DAS|DAGA 2025](https://app2025.daga-tagung.de/konferenz?sessio
 * 08:40 **Accessible and Reproducible Microphone Array Signal Processing with Python**
 * 09:00 **Getting Started with Acoular**
 * 09:20 **Generating Synthetic Sound Pressure Time Datasets of Multicopter Drone Fly-bys**
-* 09:40 **Beamforming in the time domain with moving sources**
+* 09:40 **Beamforming in the Time Domain with Moving Sources**
 * 10:00 **Coffee Break**
 * 10:20 **An Interactive Tutorial on Advanced Microphone Array Methods for Acoustic Source Mapping**
-* 10:40 **Modelling flow environments for the correction of aeroacoustic microphone array measurements**
+* 10:40 **Modelling Flow Environments for the Correction of Aeroacoustic Microphone Array Measurements**
 * 11:00 **Acoustic Data Acquisition and Processing in Python using a MEMS Microphone Array**
 * 11:20 **Comparison of Embedded Hardware Platforms for Optimized Machine Learning-Based Acoustic Imaging**    
 
@@ -48,8 +48,8 @@ conda run -n acoular-workshop-das-daga-25 jupyter nbclassic
 
 ## Acoular Future Directions Survey
 
-Please take five minutes to fill out the Acoular Future Directions Survey: [Acoular Future Directions Survey](https://adku1173.limesurvey.net/432223?lang=en)
-This is a survey about needs and future expectations regarding Acoular. 
-It addresses existing users and those who may become users in academia, other institutions, and fields other than acoustic testing.
+Please take five minutes to fill out the [Acoular Future Directions Survey](https://adku1173.limesurvey.net/432223?lang=en).
+The survey is about users' needs and future expectations regarding Acoular. 
+It addresses present users as well as anyone that may become a user in academia or similar institutions and that may also work in fields not directly related to acoustic testing.
 
 <img src="img/survey.png" alt="Survey" style="height: auto; width: 50%;">
