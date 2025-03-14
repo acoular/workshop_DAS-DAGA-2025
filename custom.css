@@ -7,6 +7,9 @@
         font-family: "Computer Modern";
         src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
     }
+    body {
+        font-size: 100%;
+    }
     /* custom code settings */
     .cm-keyword {
         color: #A81D1E !important;
@@ -80,8 +83,8 @@
     }	   
     div.text_cell_render{
         font-family: 'Roboto',Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-        line-height: 145%;
-        font-size: 120%;
+        line-height: 135%;
+        font-size: 130%;
         width:100%;
     }
     div.CodeMirror{
