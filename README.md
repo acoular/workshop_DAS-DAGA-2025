@@ -1,26 +1,10 @@
 # Acoular Workshop – DAS | DAGA 2025
 
-<!-- logo size should be small here, use html  -->
-
-<div class="logo-container">
-  <img src="img/Acoular_logo.png" class="logo" alt="Acoular">
-  <img src="img/TU-lang.png" class="logo" alt="TU">
-  <img src="img/DAGA_logo.png" class="logo" alt="DAGA">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="img/Acoular_logo.png" alt="Acoular" style="height: 100px; width: auto;">
+  <img src="img/TU-lang.png" alt="TU" style="height: 100px; width: auto;">
+  <img src="img/DAGA_logo.png" alt="DAGA" style="height: 100px; width: auto;">
 </div>
-
-<style>
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Adjust spacing */
-  }
-  .logo {
-    height: 100px; /* Set a fixed height */
-    width: auto; /* Maintain aspect ratio */
-  }
-</style>
-
 
 Official collection of Jupyter notebooks, presented at the DAS|DAGA 2025 conference during the session **Acoular Workshop: Accessible and Reproducible Microphone Array Signal Processing with Python**
 
