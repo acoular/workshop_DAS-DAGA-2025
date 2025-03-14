@@ -14,14 +14,15 @@ Session details: [DAS|DAGA 2025](https://app2025.daga-tagung.de/konferenz?sessio
 
 ## Schedule
 
-* 00 **Accessible and Reproducible Microphone Array Signal Processing with Python**
-* 01 **Getting Started with Acoular**
-* 02 **Generating Synthetic Sound Pressure Time Datasets of Multicopter Drone Fly-bys**
-* 03 **Beamforming in the time domain with moving sources**
-* 04 **An Interactive Tutorial on Advanced Microphone Array Methods for Acoustic Source Mapping**
-* 05 **Modelling flow environments for the correction of aeroacoustic microphone array measurements**
-* 06 **Acoustic Data Acquisition and Processing in Python using a MEMS Microphone Array**
-* 07 **Comparison of Embedded Hardware Platforms for Optimized Machine Learning-Based Acoustic Imaging**    
+* 08:40 **Accessible and Reproducible Microphone Array Signal Processing with Python**
+* 09:00 **Getting Started with Acoular**
+* 09:20 **Generating Synthetic Sound Pressure Time Datasets of Multicopter Drone Fly-bys**
+* 09:40 **Beamforming in the time domain with moving sources**
+* 10:00 **Coffee Break**
+* 10:20 **An Interactive Tutorial on Advanced Microphone Array Methods for Acoustic Source Mapping**
+* 10:40 **Modelling flow environments for the correction of aeroacoustic microphone array measurements**
+* 11:00 **Acoustic Data Acquisition and Processing in Python using a MEMS Microphone Array**
+* 11:20 **Comparison of Embedded Hardware Platforms for Optimized Machine Learning-Based Acoustic Imaging**    
 
 ## Installation
 
@@ -36,10 +37,10 @@ conda env create -f env.yml
 * if you require an explicit installation including builds, use the following command:
 
 ```bash
-mamba env create -f env_explicit.yml
+conda env create -f env_explicit.yml
 ```
 
-Run the notebooks:
+Run the notebooks (from the repository root):
 
 ```bash
 conda run -n acoular-workshop-das-daga-25 jupyter nbclassic
