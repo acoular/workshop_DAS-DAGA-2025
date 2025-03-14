@@ -14,8 +14,10 @@ dependencies:
   - argon2-cffi-bindings=21.2.0=py313h536fd9c_5
   - arrow=1.3.0=pyhd8ed1ab_1
   - asttokens=3.0.0=pyhd8ed1ab_1
+  - async-lru=2.0.4=pyhd8ed1ab_1
   - attr=2.5.1=h166bdaf_1
   - attrs=25.1.0=pyh71513ae_0
+  - babel=2.17.0=pyhd8ed1ab_0
   - beautifulsoup4=4.13.3=pyha770c72_0
   - bleach=6.2.0=pyh29332c3_4
   - bleach-with-css=6.2.0=h82add2a_4
@@ -23,6 +25,7 @@ dependencies:
   - bokeh=3.7.0=pyhd8ed1ab_0
   - brotli=1.1.0=hb9d3cd8_2
   - brotli-bin=1.1.0=hb9d3cd8_2
+  - brotli-python=1.1.0=py313h46c70d0_2
   - bzip2=1.0.8=h4bc722e_7
   - c-ares=1.34.4=hb9d3cd8_0
   - c-blosc2=2.17.0=h3122c55_0
@@ -30,7 +33,9 @@ dependencies:
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.18.2=h3394656_1
+  - certifi=2025.1.31=pyhd8ed1ab_0
   - cffi=1.17.1=py313hfab6e84_0
+  - charset-normalizer=3.4.1=pyhd8ed1ab_0
   - comm=0.2.2=pyhd8ed1ab_1
   - contourpy=1.3.1=py313h33d0bda_0
   - cycler=0.12.1=pyhd8ed1ab_1
@@ -62,8 +67,14 @@ dependencies:
   - gettext-tools=0.23.1=h5888daf_0
   - gmp=6.3.0=hac33072_2
   - graphite2=1.3.13=h59595ed_1003
+  - h11=0.14.0=pyhd8ed1ab_1
+  - h2=4.2.0=pyhd8ed1ab_0
   - harfbuzz=10.4.0=h76408a6_0
   - hdf5=1.14.3=nompi_h2d575fe_109
+  - hpack=4.1.0=pyhd8ed1ab_0
+  - httpcore=1.0.7=pyh29332c3_1
+  - httpx=0.28.1=pyhd8ed1ab_0
+  - hyperframe=6.1.0=pyhd8ed1ab_0
   - icu=75.1=he02047a_0
   - idna=3.10=pyhd8ed1ab_1
   - imath=3.1.12=h7955e40_0
@@ -73,24 +84,28 @@ dependencies:
   - ipython=9.0.0=pyhfb0248b_1
   - ipython_genutils=0.2.0=pyhd8ed1ab_2
   - ipython_pygments_lexers=1.1.1=pyhd8ed1ab_0
-  - ipywidgets=8.1.5=pyhd8ed1ab_1
+  - ipywidgets=7.8.5=pyhd8ed1ab_0
   - isoduration=20.11.0=pyhd8ed1ab_1
   - jack=1.9.22=h7c63dc7_2
   - jasper=4.2.4=h536e39c_0
   - jedi=0.19.2=pyhd8ed1ab_1
   - jinja2=3.1.6=pyhd8ed1ab_0
   - joblib=1.4.2=pyhd8ed1ab_1
+  - json5=0.10.0=pyhd8ed1ab_1
   - jsonpointer=3.0.0=py313h78bf25f_1
   - jsonschema=4.23.0=pyhd8ed1ab_1
   - jsonschema-specifications=2024.10.1=pyhd8ed1ab_1
   - jsonschema-with-format-nongpl=4.23.0=hd8ed1ab_1
+  - jupyter-lsp=2.2.5=pyhd8ed1ab_1
   - jupyter_client=8.6.3=pyhd8ed1ab_1
   - jupyter_core=5.7.2=pyh31011fe_1
   - jupyter_events=0.12.0=pyh29332c3_0
   - jupyter_server=2.15.0=pyhd8ed1ab_0
   - jupyter_server_terminals=0.5.3=pyhd8ed1ab_1
+  - jupyterlab=4.3.6=pyhd8ed1ab_0
   - jupyterlab_pygments=0.3.0=pyhd8ed1ab_2
-  - jupyterlab_widgets=3.0.13=pyhd8ed1ab_1
+  - jupyterlab_server=2.27.3=pyhd8ed1ab_1
+  - jupyterlab_widgets=1.1.11=pyhd8ed1ab_0
   - keyutils=1.6.1=h166bdaf_0
   - kiwisolver=1.4.7=py313h33d0bda_0
   - krb5=1.21.3=h659f571_0
@@ -213,6 +228,7 @@ dependencies:
   - ncurses=6.5=h2d0b736_3
   - nest-asyncio=1.6.0=pyhd8ed1ab_1
   - nomkl=1.0=h5ca1d4c_0
+  - notebook=7.3.3=pyhd8ed1ab_0
   - notebook-shim=0.2.4=pyhd8ed1ab_1
   - numba=0.61.0=py313h0b724e9_1
   - numexpr=2.10.2=py313h5f97788_100
@@ -256,6 +272,7 @@ dependencies:
   - pygments=2.19.1=pyhd8ed1ab_0
   - pyparsing=3.2.1=pyhd8ed1ab_0
   - pyside6=6.8.2=py313h5f61773_1
+  - pysocks=1.7.1=pyha55dd90_7
   - pytables=3.10.2=py313hd261420_2
   - python=3.13.2=hf636f53_101_cp313
   - python-dateutil=2.9.0.post0=pyhff2d567_1
@@ -272,6 +289,7 @@ dependencies:
   - rav1e=0.6.6=he8a937b_2
   - readline=8.2=h8c095d6_2
   - referencing=0.36.2=pyh29332c3_0
+  - requests=2.32.3=pyhd8ed1ab_1
   - rfc3339-validator=0.1.4=pyhd8ed1ab_1
   - rfc3986-validator=0.1.1=pyh9f0ad1d_0
   - rpds-py=0.23.1=py313h6071e0b_0
@@ -293,6 +311,7 @@ dependencies:
   - threadpoolctl=3.5.0=pyhc1e730c_0
   - tinycss2=1.4.0=pyhd8ed1ab_0
   - tk=8.6.13=noxft_h4845f30_101
+  - tomli=2.2.1=pyhd8ed1ab_1
   - tornado=6.4.2=py313h536fd9c_0
   - traitlets=5.14.3=pyhd8ed1ab_1
   - traits=7.0.2=py313h536fd9c_0
@@ -302,13 +321,14 @@ dependencies:
   - typing_utils=0.1.0=pyhd8ed1ab_1
   - tzdata=2025a=h78e105d_0
   - uri-template=1.3.0=pyhd8ed1ab_1
+  - urllib3=2.3.0=pyhd8ed1ab_0
   - wayland=1.23.1=h3e06ad9_0
   - wayland-protocols=1.41=hd8ed1ab_0
   - wcwidth=0.2.13=pyhd8ed1ab_1
   - webcolors=24.11.1=pyhd8ed1ab_0
   - webencodings=0.5.1=pyhd8ed1ab_3
   - websocket-client=1.8.0=pyhd8ed1ab_1
-  - widgetsnbextension=4.0.13=pyhd8ed1ab_1
+  - widgetsnbextension=3.6.10=pyhd8ed1ab_0
   - wrapt=1.17.2=py313h536fd9c_0
   - x264=1!164.3095=h166bdaf_2
   - x265=3.5=h924138e_3
@@ -340,4 +360,5 @@ dependencies:
   - zeromq=4.3.5=h3b0a872_7
   - zipp=3.21.0=pyhd8ed1ab_1
   - zlib-ng=2.2.4=h7955e40_0
+  - zstandard=0.23.0=py313h536fd9c_1
   - zstd=1.5.7=hb8e6e7a_1
