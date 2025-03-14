@@ -80,9 +80,12 @@
     }	   
     div.text_cell_render{
         font-family: 'Roboto',Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-        line-height: 135%;
-        font-size: 110%;
+        line-height: 145%;
+        font-size: 120%;
         width:100%;
+    }
+    div.CodeMirror{
+        font-size: 120%;
     }
     div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
         background: #0C3762;
