@@ -14,14 +14,14 @@ Session details: [DAS|DAGA 2025](https://app2025.daga-tagung.de/konferenz?sessio
 
 ## Schedule
 
-* 0. **Accessible and Reproducible Microphone Array Signal Processing with Python**
-* 1. **Getting Started with Acoular**
-* 2. **Generating Synthetic Sound Pressure Time Datasets of Multicopter Drone Fly-bys**
-* 3. **Beamforming in the time domain with moving sources**
-* 4. **An Interactive Tutorial on Advanced Microphone Array Methods for Acoustic Source Mapping**
-* 5. **Modelling flow environments for the correction of aeroacoustic microphone array measurements**
-* 6. **Acoustic Data Acquisition and Processing in Python using a MEMS Microphone Array**
-* 7. **Comparison of Embedded Hardware Platforms for Optimized Machine Learning-Based Acoustic Imaging**    
+* 00 **Accessible and Reproducible Microphone Array Signal Processing with Python**
+* 01 **Getting Started with Acoular**
+* 02 **Generating Synthetic Sound Pressure Time Datasets of Multicopter Drone Fly-bys**
+* 03 **Beamforming in the time domain with moving sources**
+* 04 **An Interactive Tutorial on Advanced Microphone Array Methods for Acoustic Source Mapping**
+* 05 **Modelling flow environments for the correction of aeroacoustic microphone array measurements**
+* 06 **Acoustic Data Acquisition and Processing in Python using a MEMS Microphone Array**
+* 07 **Comparison of Embedded Hardware Platforms for Optimized Machine Learning-Based Acoustic Imaging**    
 
 ## Installation
 
