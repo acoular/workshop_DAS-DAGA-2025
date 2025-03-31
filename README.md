@@ -1,9 +1,11 @@
+[![DOI](https://zenodo.org/badge/926471449.svg)](https://doi.org/10.5281/zenodo.15112155)
+
 # Acoular Workshop – DAS | DAGA 2025
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <img src="img/Acoular_logo.png" alt="Acoular" style="height: 100px; width: auto;">
-  <img src="img/TU-lang.png" alt="TU" style="height: 100px; width: auto;">
-  <img src="img/DAGA_logo.png" alt="DAGA" style="height: 100px; width: auto;">
+  <img src="https://github.com/acoular/workshop_DAS-DAGA-2025/img/Acoular_logo.png" alt="Acoular" style="height: 100px; width: auto;">
+  <img src="https://github.com/acoular/workshop_DAS-DAGA-2025/img/TU-lang.png" alt="TU" style="height: 100px; width: auto;">
+  <img src="https://github.com/acoular/workshop_DAS-DAGA-2025/img/DAGA_logo.png" alt="DAGA" style="height: 100px; width: auto;">
 </div>
 
 Official collection of Jupyter notebooks, presented at the DAS|DAGA 2025 conference during the session: 
