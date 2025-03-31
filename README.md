@@ -45,11 +45,3 @@ Run the notebooks (from the repository root):
 ```bash
 conda run -n acoular-workshop-das-daga-25 jupyter nbclassic
 ```
-
-## Acoular Future Directions Survey
-
-Please take five minutes to fill out the [Acoular Future Directions Survey](https://adku1173.limesurvey.net/432223?lang=en).
-The survey is about users' needs and future expectations regarding Acoular. 
-It addresses present users as well as anyone that may become a user in academia or similar institutions and that may also work in fields not directly related to acoustic testing.
-
-<img src="img/survey.png" alt="Survey" style="height: auto; width: 50%;">
